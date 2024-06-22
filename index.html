@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Date Quotes</title>
     <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="all.min.css">
     <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
     <header class="anniversary d-flex justify-content-around align-items-center flex-column">
-        <h1  class="h6 p-2 bg-light-subtle rounded text-center">Enter Our Date My Butterfly</h1>
-        <input type="date" id="dateInput" class="form-control w-75">
+        <h1  class="h6 p-4 bg-light-subtle  rounded-4 text-center"><i class="fa-solid fa-heart text-danger  fs-3"></i> Enter Our Date My Butterfly <i class="fa-regular fa-face-kiss-wink-heart text-danger  fs-3"></i></h1>
+        <input type="text" id="dateInput" class="form-control w-75">
         <button class="btn btn-outline-light w-100 py-3" onclick="getQuoteByDate()">Get Quote</button>
         <p id="quoteDisplay" class="fs-2 bg-body-tertiary rounded-4 p-3"></p>
     </header>

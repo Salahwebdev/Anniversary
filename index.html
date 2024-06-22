@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Quotes</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="anniversary d-flex justify-content-around align-items-center flex-column">
+        <h1  class="h6 p-2 bg-light-subtle rounded text-center">Enter Our Date My Butterfly</h1>
+        <input type="date" id="dateInput" class="form-control w-75">
+        <button class="btn btn-outline-light w-100 py-3" onclick="getQuoteByDate()">Get Quote</button>
+        <p id="quoteDisplay" class="fs-2 bg-body-tertiary rounded-4 p-3"></p>
+    </header>
+    
+    
+    <script src="index.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>

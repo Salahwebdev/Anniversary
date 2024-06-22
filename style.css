@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+
+}
+.anniversary{
+    background-image: url(fantasy-landscape-with-butterfly.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    object-fit: cover;
+ 
+}

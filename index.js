@@ -13,9 +13,12 @@ function getQuoteByDate() {
       quote = "عيد ميلاد روح قلبي";
   } else if (dateInput === "2020-10-13") {
       quote = "يوم خطوبتنا";
+  } else if (dateInput === "1999-01-05") {
+      quote = "عيد ميلاد القمر اللي نور حياه رونا";
   } else {
-      quote = "No quote for this date.";
+      quote = "No Memory for this date.";
   }
 
   document.getElementById("quoteDisplay").innerText = quote;
 }
+
